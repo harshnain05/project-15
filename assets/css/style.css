@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-height: 100vh;
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    width: 362px;
+    height: 52px;
+}
+
+.para {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #15143966;
+    padding-top: 25px;
+    width: 355px;
+    height: 78px;
+    top: 177px;
+    left: 217px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.card1 {
+    width: 368.5px;
+    height: 308.5px;
+    top: 100px;
+    left: 216px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.number {
+    padding-left: 16px;
+}
+
+.email {
+    padding-left: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.logon {
+    display: flex;
+    padding-top: 54px;
+}
+
+.logoe {
+    display: flex;
+}
+
+.svgline {
+    padding-top: 35.3px;
+}
+
+.heading2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    display: flex;
+}
+
+.card2 {
+    width: 370px;
+    height: 335px;
+    top: 453px;
+    left: 215px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.card3 {
+    width: 470px;
+    height: 550px;
+    top: 238px;
+    left: 716px;
+    gap: 0px;
+    opacity: 0px;
+    background: #EBEAED;
+}
+
+.lable {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 48px;
+    color: #1E0E62;
+
+}
+
+.lable1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 37px;
+    color: #1E0E62;
+}
+
+.lable2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 35px;
+    color: #1E0E62;
+}
+
+
+.input {
+    width: 370px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    padding: 12px 24px 12px 24px;
+    color: #FFFFFF;
+}
+
+.input2 {
+    width: 270px;
+    height: 50px;
+    top: 674px;
+    left: 766px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    padding: 12px 24px 12px 24px;
+    color: #FFFFFF;
+}
+
+.input1 {
+    width: 370px;
+    height: 170px;
+    top: 437px;
+    left: 766px;
+    border-radius: 10px;
+    border: 2px solid #EBEAED;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    padding-left: 19px;
+    padding-top: 13px;
+    padding-bottom: 120px;
+    margin-left: 50px;
+    margin-top: 6px;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 90px;
+    height: 50px;
+    top: 674px;
+    left: 1046px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    background: #25DAC5;
+    color: white;
+    border: 2px solid #25DAC5;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
