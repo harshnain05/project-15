@@ -38,6 +38,7 @@ section {
     padding-left: 12px;
     padding-right: 12px;
 }
+.w-100{ width: 100%;}
 
 .heading1 {
     font-family: "DM Sans", sans-serif;
@@ -47,6 +48,7 @@ section {
     text-align: left;
     width: 362px;
     height: 52px;
+    color: #1E0E62;
 }
 
 .para {
@@ -58,28 +60,22 @@ section {
     padding-top: 25px;
     width: 355px;
     height: 78px;
-    top: 177px;
-    left: 217px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .card1 {
     width: 368.5px;
     height: 308.5px;
-    top: 100px;
-    left: 216px;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.number {
+a {
     padding-left: 16px;
+    cursor: pointer;
 }
 
 .email {
     padding-left: 16px;
     font-family: "DM Sans", sans-serif;
+    cursor: pointer;
 }
 
 .logon {
@@ -102,16 +98,18 @@ section {
     line-height: 32px;
     text-align: left;
     display: flex;
+
+color: #1E0E62;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    
 }
 
 .card2 {
     width: 370px;
     height: 335px;
-    top: 453px;
-    left: 215px;
-    gap: 0px;
-    opacity: 0px;
-
 }
 
 .card3 {
@@ -121,7 +119,8 @@ section {
     left: 716px;
     gap: 0px;
     opacity: 0px;
-    background: #EBEAED;
+    
+    background-color: #EBEAED;
 }
 
 .lable {
@@ -173,7 +172,7 @@ section {
     margin-top: 6px;
     margin-bottom: 30px;
     padding: 12px 24px 12px 24px;
-    color: #FFFFFF;
+
 }
 
 .input2 {
@@ -192,7 +191,6 @@ section {
     margin-top: 6px;
     margin-bottom: 30px;
     padding: 12px 24px 12px 24px;
-    color: #FFFFFF;
 }
 
 .input1 {
@@ -200,6 +198,11 @@ section {
     height: 170px;
     top: 437px;
     left: 766px;
+ 
+    
+
+    width: 370px;
+    height: 170px;
     border-radius: 10px;
     border: 2px solid #EBEAED;
     font-family: "DM Sans", sans-serif;
@@ -210,7 +213,8 @@ section {
     padding-bottom: 120px;
     margin-left: 50px;
     margin-top: 6px;
-    color: #FFFFFF;
+    margin-right: 50px;
+
 }
 
 .button {
@@ -231,3 +235,8 @@ section {
     text-align: center;
     cursor: pointer;
 }
+ iframe{
+    width: 370px;
+height: 230px;
+
+ }
